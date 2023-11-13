@@ -11,10 +11,6 @@
   ],
   "version": "1.1.1",
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net) & Janealter",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Janealter/ref-struct-napi.git"
-  },
   "main": "./lib/struct.js",
   "license": "MIT",
   "scripts": {
@@ -22,12 +18,12 @@
   },
   "dependencies": {
     "debug": "2",
-    "ref-napi": "^1.4.2"
+    "@breush/ref-napi": "^4.0.9"
   },
   "devDependencies": {
     "bindings": "~1.2.0",
     "nan": "2",
     "mocha": "^6.2.3",
-    "ref-array-napi": "^1.2.1"
+    "ref-array-napi": "file:../ref-array-napi"
   }
 }
